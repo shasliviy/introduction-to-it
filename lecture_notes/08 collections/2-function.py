@@ -1,8 +1,8 @@
 # Implementation
 
 def getFirstAndLast(array):
-  first = ages[0]
-  last = ages[-1]
+  first = array.pop(0)
+  last = array.pop()
   return first, last
 
 # Usage
